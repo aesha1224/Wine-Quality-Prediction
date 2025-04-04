@@ -107,7 +107,7 @@ We implemented **5 ML models**:
 ![Analysis Page](./Images/analysis.png)
 
 ### 🌐 HTML UI  
-![HTML UI](./Images/html_ui.png)
+![HTML UI](./Images/html__ui.png)
 
 ---
 
