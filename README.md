@@ -98,13 +98,13 @@ We implemented **5 ML models**:
 ## 📸 Power BI Dashboard (Screenshots)
 
 ### 📋 Index Page  
-![Index Page](./Images/index.png)
+![Index Page](./Images/index.jpg)
 
 ### 🧪 Overview Page  
-![Overview Page](./Images/overview.png)
+![Overview Page](./Images/overview.jpg)
 
 ### 📈 Analysis Page  
-![Analysis Page](./Images/analysis.png)
+![Analysis Page](./Images/analysis.jpg)
 
 ### 🌐 HTML UI  
 ![HTML UI](./Images/html__ui.png)
