@@ -90,7 +90,7 @@ We implemented **5 ML models**:
 ---
 
 ## 🚀 Live Preview  
-- **Power BI Dashboard:** [Click Here](https://app.fabric.microsoft.com/view?r=eyJrIjoiN2IzOTg0NTQtOWMxYy00NDYyLWIyOWYtZGUxMGQyYzBiZTM3IiwidCI6ImRhYTU5MmNhLWRlN2ItNGM1NC04ODM2LTkxYTY2OTBmZTE5NyJ9&pageName=dd74d0105ec518cb7330)  
+- **Power BI Dashboard:** [Click Here](https://app.fabric.microsoft.com/view?r=eyJrIjoiN2IzOTg0NTQtOWMxYy00NDYyLWIyOWYtZGUxMGQyYzBiZTM3IiwidCI6ImRhYTU5MmNhLWRlN2ItNGM1NC04ODM2LTkxYTY2OTBmZTE5NyJ9)  
 - **Web UI:** [Redirect To Render](https://wine-quality-prediction-1-1fuo.onrender.com)
 
 ---
