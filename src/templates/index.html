@@ -14,11 +14,12 @@
         rel="stylesheet">
     <style>
         :root {
-            --wine-primary: #800020;
-            --wine-secondary: #5e0018;
-            --wine-accent: #a30021;
-            --wine-hover: #c50027;
-            --cream: #fff8e7;
+            /* New color palette */
+            --wine-primary: #621708;
+            --wine-secondary: #941B0C;
+            --wine-accent: #BC3908;
+            --wine-hover: #F6AA1C;
+            --cream: #FFFAEB;
             --form-spacing: 12px;
             --border-radius: 8px;
             --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -156,6 +157,7 @@
             box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
             -webkit-appearance: none;
             -moz-appearance: textfield;
+            color: #333;
         }
 
         input[type="number"]::-webkit-outer-spin-button,
@@ -166,7 +168,7 @@
 
         input[type="number"]:focus {
             outline: none;
-            box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 0 3px rgba(246, 170, 28, 0.25);
         }
 
         .buttons {
@@ -205,7 +207,16 @@
 
         button:focus {
             outline: none;
-            box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25), var(--box-shadow);
+            box-shadow: 0 0 0 3px rgba(246, 170, 28, 0.25), var(--box-shadow);
+        }
+
+        button[type="reset"] {
+            background-color: transparent;
+            border: 2px solid white;
+        }
+
+        button[type="reset"]:hover {
+            background-color: rgba(255, 255, 255, 0.1);
         }
 
         .result {
@@ -346,16 +357,10 @@
             <div class="image-container">
                 <div class="wine-image-wrapper">
                     <picture>
-                        <!-- Smaller image for mobile devices -->
-                        <source media="(max-width: 480px)"
-                            srcset="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wine.jpg-E4RIH7qu78sJGnPLVmUGnSMzkBRTRi.jpeg 480w">
-                        <!-- Medium-sized image for tablets -->
-                        <source media="(max-width: 768px)"
-                            srcset="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wine.jpg-E4RIH7qu78sJGnPLVmUGnSMzkBRTRi.jpeg 768w">
-                        <!-- Full-sized image for desktops -->
-                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wine.jpg-E4RIH7qu78sJGnPLVmUGnSMzkBRTRi.jpeg"
-                            alt="Wine bottle and glass with splashing red wine" class="wine-image" loading="lazy"
-                            width="400" height="400">
+                        <!-- Placeholder image - replace with your actual wine image -->
+                        <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Wine bottle and glass with red wine" class="wine-image" loading="lazy" width="400"
+                            height="400">
                     </picture>
                 </div>
             </div>
